@@ -1,0 +1,126 @@
+
+.calendar-container {
+  width: 100%;
+  max-width: 900px;
+ 
+  font-family: 'Courier New', Courier, monospace;
+  font:weight;
+  margin-top: 80px; 
+  margin-left: 27%; 
+  text-align: center;
+}
+
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.calendar-header button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #515050;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar-header button:hover {
+  background-color: #7a7a7a;
+}
+
+
+.react-calendar {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid white; 
+}
+
+.react-calendar__tile--active {
+  background: #8c8c8c;
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #828282;
+}
+
+
+.workout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.workout span {
+  font-size: 0.8rem;
+}
+
+
+.cl {
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.stats {
+  display: flex;
+  font:weight;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5;
+  margin-bottom: 20px;
+  padding: 20px;
+  min-width: 250px;
+  flex-wrap: wrap; 
+  text-align: center;
+
+}
+
+.stats div {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 22%;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(158, 74, 74, 0.1);
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #555;
+}

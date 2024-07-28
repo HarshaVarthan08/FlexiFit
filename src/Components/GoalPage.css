@@ -1,0 +1,136 @@
+
+.goal-page-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+   
+    margin-left: 25%;
+  }
+  
+ 
+  .goal-page-header {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    font:weight;
+  }
+  
+  .goal-page-header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .goal-page-header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  
+  .goal-page-active-goals {
+    margin-bottom: 20px;
+  }
+  
+  .goal-page-active-goals h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .goal-page-goal {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #79bae5;
+  }
+  
+  .goal-page-goal h3 {
+    margin: 0 0 10px;
+  }
+  
+  .goal-page-goal p {
+    margin: 0 0 20px;
+    color: #000000;
+   
+  }
+  
+  .goal-page-goal-details {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-bottom: 20px;
+  }
+  
+  .goal-page-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffefe;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .goal-page-detail img {
+    margin-bottom: 5px;
+  }
+  
+  .goal-page-detail span {
+    font-size: 0.9rem;
+  }
+  
+  .goal-page-stop-goal {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .goal-page-stop-goal:hover {
+    background-color: #c0392b;
+  }
+  
+ 
+  .goal-page-suggested-goals {
+    margin-bottom: 20px;
+  }
+  
+  .goal-page-suggested-goals h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .goal-page-suggested-goal {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .goal-page-suggested-goal h3 {
+    margin: 0 0 10px;
+  }
+  
+  .goal-page-suggested-goal p {
+    margin: 0 0 20px;
+    color: #777;
+  }
+  
+  .goal-page-set-goal {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .goal-page-set-goal:hover {
+    background-color: #2980b9;
+  }
+  
